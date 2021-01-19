@@ -1,0 +1,94 @@
+.posted-hobby {
+  margin: 25px 0px;
+  padding: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.posted-hobby__title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.posted-hobby__main {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.posted-hobby__list {
+  display: flex;
+}
+
+.posted-hobby__list img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.posted-hobby__list span {
+  margin-top: 15px;
+  margin-left: 3px;
+  font-weight: 700;
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 100px 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+.open-chat__header span {
+  opacity: 0.6;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.open-post__columns {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.open-post__title {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.open-post__columns img {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.open-post__member-status {
+  color: rgb(255, 163, 220);
+  font-weight: 550;
+}
+
+.open-post__columns:first-child {
+  margin-left: 15px;
+}
+
+.open-post__columns:nth-child(2) {
+  margin-left: 15px;
+}
+
+.open-post__columns:last-child {
+  margin-left: 15px;
+}
